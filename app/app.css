@@ -1,0 +1,15 @@
+/* app css stylesheet */
+
+body {
+  height:auto;
+  background-color: rgba(245,245,225,1);
+}
+
+#landing-page {
+  margin:2%;
+  height:90%;
+  background-color: purple;
+  border-radius: 25px;
+  padding:2%;
+  color:rgba(245,245,225,1);
+}
