@@ -1,5 +1,14 @@
-<p>This is the partial for view 2.</p>
-<p>
-  Showing of 'interpolate' filter:
-  {{ 'Current version is v%VERSION%.' | interpolate }}
-</p>
+<div id="choose-quiz" ng-controller="View2Ctrl">
+  <div id="view2cont">
+    <div>?</div>
+    <h3>Pick A Region</h3>
+    <p>
+      Choose a world region from below:
+    </p>
+      <ul>
+        <li><a href="#/view3/NA">North America</a></li>
+        <li><a href="#/view3/SA">South America</a></li>
+        <li><a href="#/view3/WA">Who's America?</a></li>
+      </ul>
+  </div>
+</div>

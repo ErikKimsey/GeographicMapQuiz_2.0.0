@@ -1,16 +1,24 @@
 'use strict';
 
-describe('myApp.view2 module', function() {
+// describe('myApp.view3 module', function() {
+//
+//   beforeEach(module('myApp.view3'));
+//
+//   describe('view3 controller', function(){
+//
+//     it('should ....', inject(function($controller) {
+//       //spec body
+//       var view3ctrl = $controller('View3Ctrl');
+//       expect(view3ctrl).toBeDefined();
+//     }));
+//
+//   });
+// });
 
-  beforeEach(module('myApp.view2'));
+describe('myApp QuizConstr', function(){
 
-  describe('view2 controller', function(){
-
-    it('should ....', inject(function($controller) {
-      //spec body
-      var view2Ctrl = $controller('View2Ctrl');
-      expect(view2Ctrl).toBeDefined();
-    }));
+  it("should perform $get request and return JSON data", function(){
 
   });
+
 });

@@ -1,0 +1,30 @@
+{
+  "quizname" : "South America",
+  "questions" : [
+      {
+        "quizname" : "South America",
+        "number" : 1,
+        "map" : "",
+        "hint" : "hint1",
+        "answer" : "right answer",
+        "student-answer" : ""
+      },
+      {
+        "quizname" : "South America",
+        "number" : 2,
+        "map" : "",
+        "hint" : "hint2",
+        "answer" : "right answer",
+        "student-answer" : ""
+      },
+      {
+        "quizname" : "South America",
+        "number" : 3,
+        "map" : "",
+        "hint" : "hint1",
+        "answer" : "right answer",
+        "student-answer" : ""
+      }
+    ]
+  }
+}

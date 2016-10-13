@@ -1,5 +1,18 @@
-<p>This is the partial for view 2.</p>
-<p>
-  Showing of 'interpolate' filter:
-  {{ 'Current version is v%VERSION%.' | interpolate }}
-</p>
+<div id="quiz-page" ng-controller="View3Ctrl">
+
+  <h1>{{ quiz }}</h1>
+  <div id="image-obj">
+    {{ image }}
+  </div>
+  <h5>{{ hint }}</h5>
+  <div id="question">
+    {{ question }}
+  </div>
+  <input type="text" name="answerinput"/>
+  <div id="clock">
+    {{ clock }}
+  </div>
+  <button>Submit Question</button>
+  <button>Next Question</button>
+  <button>Exit Quiz</button>
+</div>
